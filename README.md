@@ -131,6 +131,39 @@ flowchart LR
 
 ---
 
+## Documentation & Project Structure
+
+* [System Architecture](./docs/ARCHITECTURE.md) — 전체 아키텍처, SSAFY GMS Multi-Agent/RAG 파이프라인, 3D 스튜디오, 정산 시퀀스
+* [ERD & Database Schema](./docs/ERD.md) — PostgreSQL + `pgvector` ERD 및 전체 테이블 명세
+* [API Specification](./docs/API_SPEC.md) — REST API (`/api/v1`) 및 WebSocket (`/ws/campaigns/`) 명세
+
+```text
+re-fit/
+├── docs/               # Architecture, ERD, API Spec
+├── backend/            # Django + DRF + Channels + Celery + SSAFY GMS AI Engine
+│   ├── config/
+│   └── apps/           # accounts, ai_engine, designs, payments, funding
+├── frontend/           # Vue 3 + Vite + Pinia + Three.js 3D Studio
+└── docker-compose.yml  # PostgreSQL (pgvector) + Redis
+```
+
+### Quick Start
+```bash
+# 1. Backend
+cd backend
+cp .env.example .env   # GMS_API_KEY 등 환경변수 입력
+pip install -r requirements.txt
+python manage.py makemigrations && python manage.py migrate
+python manage.py runserver
+
+# 2. Frontend
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
 <div align="center">
 
 **RE:FIT** — *Don't fit in. RE:FIT.* · *Design it. Fund it. Wear it.*
