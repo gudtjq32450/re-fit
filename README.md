@@ -166,6 +166,7 @@ flowchart LR
 * [ERD & Database Schema](./docs/ERD.md) — PostgreSQL + `pgvector` ERD 및 전체 테이블 명세
 * [API Specification](./docs/API_SPEC.md) — REST API (`/api/v1`) 및 WebSocket (`/ws/campaigns/`) 명세
 * [3D Interactive Studio Spec (PDF)](./docs/RE_FIT_3D_Interactive_Studio_Spec.pdf) — 360° 환경 채광 시뮬레이션 및 부위 지정 원단 구김·펴기 인터랙션 기술 명세 및 검증서
+* [Figma UI Frames & Design Guide](./docs/figma/README.md) — Figma에 바로 드래그 앤 드롭 가능한 `1440×900` 레이어 분리형 `.svg` 화면 프레임 3종 및 디자인 토큰 명세
 
 ```text
 re-fit/

@@ -1,0 +1,91 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="Frame_03_Funding_And_Bidding" width="1440" height="900" fill="#090D16"/>
+
+  <!-- Header -->
+  <g id="TopNavBar">
+    <rect width="1440" height="64" fill="#111827"/>
+    <line x1="0" y1="64" x2="1440" y2="64" stroke="#1E293B"/>
+    <text x="36" y="39" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="20" font-weight="800">RE:FIT</text>
+    <text x="118" y="38" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="700">Fund it · Wear it — 공동구매 예치 &amp; 공급업체 입찰·제작 투명 공개</text>
+  </g>
+
+  <!-- Left Card: Campaign Status & Escrow Participation -->
+  <g id="Campaign_Escrow_Card">
+    <rect x="36" y="92" width="670" height="772" rx="16" fill="#111827" stroke="#1E293B"/>
+    <text x="68" y="132" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11" font-weight="700">FUND IT · CROWDFUNDING GROUP-BUY</text>
+    <text x="68" y="162" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="22" font-weight="800">헤비웨이트 480g 더블레이어 빅후드</text>
+    <text x="68" y="188" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13">제작자 @seopyoon · 팔로우 +   |   ♥ 좋아요 248   |   디자인 이용권 5,000원</text>
+
+    <!-- Progress Box -->
+    <rect x="68" y="214" width="606" height="148" rx="12" fill="#090D16" stroke="#1E293B"/>
+    <text x="92" y="248" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="15" font-weight="800">구매 예정 확정자 114명 / 최소 목표 100명 (114% 달성!)</text>
+    <rect x="92" y="268" width="558" height="14" rx="7" fill="#1E293B"/>
+    <rect x="92" y="268" width="558" height="14" rx="7" fill="#38BDF8"/>
+    <text x="92" y="312" fill="#34D399" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="700">✓ 최소 인원 100명 돌파 — 현재 공급업체 역경매 입찰 진행 중</text>
+    <text x="92" y="336" fill="#FACC15" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">★ 얼리버드 혜택: 등록 후 1주일 이내 참여자 플랫폼 수수료 감면 적용</text>
+
+    <!-- Pricing Comparison -->
+    <g id="Pricing_Escrow_Boxes">
+      <rect x="68" y="384" width="294" height="118" rx="12" fill="#090D16" stroke="#334155"/>
+      <text x="92" y="416" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">AI 산출 예상 제작 단가</text>
+      <text x="92" y="454" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="26" font-weight="800">70,000원</text>
+      <text x="92" y="482" fill="#64748B" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11">원단·이중덧댐·공임 RAG 기준</text>
+
+      <rect x="380" y="384" width="294" height="118" rx="12" fill="#090D16" stroke="#38BDF8"/>
+      <text x="404" y="416" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="700">구매 예정 확정 선충전 예치금</text>
+      <text x="404" y="454" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="26" font-weight="800">85,000원</text>
+      <text x="404" y="482" fill="#CBD5E1" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11">최종 낙찰 단가 확정 후 차액 즉시 환급</text>
+    </g>
+
+    <!-- Refund Policy Box -->
+    <rect x="68" y="524" width="606" height="128" rx="12" fill="#0F172A" stroke="#1E293B"/>
+    <text x="92" y="556" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="700">투명한 차액 환급 시뮬레이션 (예: 62,000원 업체 선정 시)</text>
+    <text x="92" y="584" fill="#CBD5E1" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">• 예치금 85,000원 - 확정 제작단가 62,000원 (얼리버드 수수료 0원)</text>
+    <text x="92" y="610" fill="#34D399" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13" font-weight="800">→ 차액 23,000원 전액 포인트 / 캐시 자동 환급!</text>
+
+    <rect x="68" y="780" width="606" height="54" rx="12" fill="#38BDF8"/>
+    <text x="371" y="813" text-anchor="middle" fill="#090D16" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="15" font-weight="800">사이즈(XS~3XL) 선택 후 85,000원 구매 예정 확정하기</text>
+  </g>
+
+  <!-- Right Card: Supplier Bidding & Transparent Production Tracking -->
+  <g id="Supplier_Bidding_And_Tracking_Card">
+    <rect x="730" y="92" width="674" height="772" rx="16" fill="#111827" stroke="#1E293B"/>
+    <text x="762" y="132" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11" font-weight="700">WEAR IT · SUPPLIER BIDDING &amp; TRANSPARENT MILESTONES</text>
+    <text x="762" y="162" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="20" font-weight="800">공급업체 입찰 현황 (디자인 등록자 직접 선정)</text>
+
+    <!-- Bid List -->
+    <rect x="762" y="188" width="610" height="86" rx="12" fill="#090D16" stroke="#34D399" stroke-width="1.5"/>
+    <text x="786" y="220" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="15" font-weight="800">(주)성수헤비어패럴 공방 · 제안 단가 62,000원</text>
+    <text x="786" y="246" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">납기 12일 · 국내 편직 480g 정품 원단 보증 · 이중 봉제 샘플 보유</text>
+    <rect x="1248" y="210" width="104" height="38" rx="8" fill="#34D399"/><text x="1300" y="234" text-anchor="middle" fill="#090D16" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="800">업체 선정</text>
+
+    <rect x="762" y="288" width="610" height="82" rx="12" fill="#090D16" stroke="#334155"/>
+    <text x="786" y="320" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="15" font-weight="700">동대문 마스터소잉 파트너스 · 제안 단가 66,000원</text>
+    <text x="786" y="346" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">납기 10일 · 특양면 기모 안감 교체 옵션 무상 지원</text>
+
+    <!-- Transparent Production Timeline -->
+    <text x="762" y="420" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="18" font-weight="800">제작 → 검수 → 발송 전 과정 실시간 투명 공개</text>
+
+    <g id="Production_Timeline">
+      <line x1="788" y1="456" x2="788" y2="796" stroke="#334155" stroke-width="2"/>
+
+      <circle cx="788" cy="462" r="9" fill="#38BDF8"/>
+      <text x="814" y="467" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="700">1. 공급업체 선정 및 차액 포인트 환급 완료</text>
+      <text x="814" y="489" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">최종 단가 62,000원 확정 · 참여자 전원 차액 자동 정산 완료</text>
+
+      <circle cx="788" cy="542" r="9" fill="#38BDF8"/>
+      <text x="814" y="547" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="700">2. 원단 발주 및 재단 인증 사진 등록</text>
+      <text x="814" y="569" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">480g 코튼 겉감 + 순면 안감 입고 검수서 및 재단실 실시간 사진 공개</text>
+
+      <circle cx="788" cy="622" r="9" fill="#FACC15"/>
+      <text x="814" y="627" fill="#FACC15" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="700">3. 이중 덧댐 봉제 &amp; 프린팅 공정 진행 중 (현재 단계)</text>
+      <text x="814" y="649" fill="#CBD5E1" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">빅 후드 봉제 완료율 75% · 전면 실크스크린 인쇄 테스트 통과</text>
+
+      <circle cx="788" cy="702" r="9" fill="#334155"/>
+      <text x="814" y="707" fill="#64748B" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="600">4. 최종 품질 검수 (QC) 및 치수 실측 공개</text>
+
+      <circle cx="788" cy="772" r="9" fill="#334155"/>
+      <text x="814" y="777" fill="#64748B" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="600">5. 개별 포장 및 운송장 일괄 발송</text>
+    </g>
+  </g>
+</svg>

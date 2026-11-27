@@ -1,0 +1,103 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Frame Background -->
+  <rect id="Frame_01_Style_Analysis" width="1440" height="900" fill="#090D16"/>
+
+  <!-- Top Navigation Bar -->
+  <g id="TopNavBar">
+    <rect width="1440" height="64" fill="#111827"/>
+    <line x1="0" y1="64" x2="1440" y2="64" stroke="#1E293B"/>
+    <text x="36" y="39" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="20" font-weight="800">RE:FIT</text>
+    <text x="116" y="38" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="600">Don't fit in. RE:FIT.</text>
+    <text x="1220" y="38" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13" font-weight="600">Step 1 / 3 · 스타일 분석</text>
+  </g>
+
+  <!-- Left Column: Multimodal Input Card -->
+  <g id="Left_Multimodal_Input_Panel">
+    <rect x="36" y="92" width="530" height="772" rx="16" fill="#111827" stroke="#1E293B"/>
+    <text x="64" y="132" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11" font-weight="700">STEP 01 · MULTIMODAL STYLE INPUT</text>
+    <text x="64" y="160" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="20" font-weight="800">프롬프트 또는 착장 이미지 입력</text>
+
+    <!-- Guardrail Status Badge -->
+    <rect x="382" y="138" width="156" height="28" rx="6" fill="#0F172A" stroke="#334155"/>
+    <text x="460" y="156" text-anchor="middle" fill="#34D399" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11" font-weight="700">상표권 Guardrail ON</text>
+
+    <!-- Image Upload Zone -->
+    <g id="Outfit_Upload_Dropzone">
+      <rect x="64" y="190" width="474" height="250" rx="12" fill="#090D16" stroke="#334155" stroke-dasharray="6 4"/>
+      <circle cx="299" cy="276" r="28" fill="#1E293B"/>
+      <text x="299" y="282" text-anchor="middle" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="18" font-weight="700">+</text>
+      <text x="299" y="332" text-anchor="middle" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="15" font-weight="700">연예인 · 모델 · 본인 평소 착장 사진 업로드</text>
+      <text x="299" y="358" text-anchor="middle" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">얼굴 제외 의류 실루엣·원단·컬러 벡터만 추출 (초상권 안전)</text>
+      <rect x="204" y="380" width="190" height="32" rx="8" fill="#1E293B"/>
+      <text x="299" y="400" text-anchor="middle" fill="#E2E8F0" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="600">street_outfit_ref.jpg 첨부됨</text>
+    </g>
+
+    <!-- Prompt Input Area -->
+    <g id="Style_Prompt_Box">
+      <text x="64" y="476" fill="#CBD5E1" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13" font-weight="700">원하는 스타일 / 핏 / 소재 설명 프롬프트</text>
+      <rect x="64" y="490" width="474" height="140" rx="12" fill="#090D16" stroke="#334155"/>
+      <text x="84" y="522" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13">무채색 다크톤 스트릿 무드, 단단한 헤비코튼 소재로</text>
+      <text x="84" y="544" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13">후드가 크게 잡히고 안감은 면, 겉감은 원단 두 개 덧댄 후드티</text>
+      <text x="64" y="654" fill="#34D399" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">✓ 상표권 침해 키워드(Supreme, LV 등) 미검출 — 안전</text>
+    </g>
+
+    <!-- Analyze CTA -->
+    <rect x="64" y="784" width="474" height="52" rx="12" fill="#1E293B" stroke="#38BDF8"/>
+    <text x="301" y="815" text-anchor="middle" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="700">SSAFY GMS Vision + RAG 스타일 분류 실행</text>
+  </g>
+
+  <!-- Right Column: Style Re-confirmation (Anti-Hallucination) -->
+  <g id="Right_Style_Confirmation_Panel">
+    <rect x="590" y="92" width="814" height="772" rx="16" fill="#111827" stroke="#1E293B"/>
+    <text x="622" y="132" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11" font-weight="700">STEP 02 · HUMAN-IN-THE-LOOP CONFIRMATION</text>
+    <text x="622" y="160" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="20" font-weight="800">"이런 스타일의 옷을 원하시나요?" — 레퍼런스 재확인</text>
+    <text x="622" y="184" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">고정 스타일 Taxonomy 내 Structured Output 매칭으로 할루시네이션 및 초상권 이슈를 방지합니다.</text>
+
+    <!-- 3 Reference Cards -->
+    <g id="Style_Card_1_Selected">
+      <rect x="622" y="212" width="240" height="340" rx="14" fill="#090D16" stroke="#38BDF8" stroke-width="2"/>
+      <rect x="638" y="228" width="208" height="200" rx="10" fill="#161F30"/>
+      <text x="742" y="322" text-anchor="middle" fill="#CBD5E1" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13" font-weight="700">고스트 마네킹 샘플 #01</text>
+      <text x="742" y="344" text-anchor="middle" fill="#64748B" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11">(얼굴 없는 사전 생성 DB)</text>
+      <text x="638" y="458" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="15" font-weight="800">스트릿 · 헤비웨이트</text>
+      <text x="846" y="458" text-anchor="end" fill="#38BDF8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="800">94%</text>
+      <text x="638" y="484" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">480g 고중량 · 빅 후드 · 드롭숄더</text>
+      <rect x="638" y="506" width="84" height="26" rx="6" fill="#38BDF8"/>
+      <text x="680" y="523" text-anchor="middle" fill="#090D16" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="11" font-weight="800">선택됨</text>
+    </g>
+
+    <g id="Style_Card_2">
+      <rect x="877" y="212" width="240" height="340" rx="14" fill="#090D16" stroke="#334155"/>
+      <rect x="893" y="228" width="208" height="200" rx="10" fill="#161F30"/>
+      <text x="997" y="322" text-anchor="middle" fill="#CBD5E1" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13" font-weight="700">고스트 마네킹 샘플 #02</text>
+      <text x="893" y="458" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="15" font-weight="700">스트릿 · 고프코어</text>
+      <text x="1101" y="458" text-anchor="end" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="700">82%</text>
+      <text x="893" y="484" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">립스톱 나일론 · 절개 방풍 디테일</text>
+    </g>
+
+    <g id="Style_Card_3">
+      <rect x="1132" y="212" width="240" height="340" rx="14" fill="#090D16" stroke="#334155"/>
+      <rect x="1148" y="228" width="208" height="200" rx="10" fill="#161F30"/>
+      <text x="1252" y="322" text-anchor="middle" fill="#CBD5E1" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13" font-weight="700">고스트 마네킹 샘플 #03</text>
+      <text x="1148" y="458" fill="#F8FAFC" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="15" font-weight="700">락시크 · 다크 그런지</text>
+      <text x="1356" y="458" text-anchor="end" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="700">71%</text>
+      <text x="1148" y="484" fill="#94A3B8" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12">피그먼트 워싱 · 빈티지 시보리</text>
+    </g>
+
+    <!-- Extracted Tag Chips -->
+    <g id="Extracted_Attribute_Tags">
+      <text x="622" y="592" fill="#CBD5E1" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="13" font-weight="700">추출된 핵심 의류 속성 태그 (클릭하여 보정 가능)</text>
+      <rect x="622" y="610" width="110" height="34" rx="8" fill="#38BDF8"/><text x="677" y="632" text-anchor="middle" fill="#090D16" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="700">#오버핏실루엣</text>
+      <rect x="742" y="610" width="120" height="34" rx="8" fill="#38BDF8"/><text x="802" y="632" text-anchor="middle" fill="#090D16" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="700">#헤비코튼480g</text>
+      <rect x="872" y="610" width="90" height="34" rx="8" fill="#38BDF8"/><text x="917" y="632" text-anchor="middle" fill="#090D16" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="700">#빅후드</text>
+      <rect x="972" y="610" width="120" height="34" rx="8" fill="#38BDF8"/><text x="1032" y="632" text-anchor="middle" fill="#090D16" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="700">#겉감2중덧댐</text>
+      <rect x="1102" y="610" width="100" height="34" rx="8" fill="#1E293B" stroke="#334155"/><text x="1152" y="632" text-anchor="middle" fill="#E2E8F0" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="12" font-weight="600">#안감순면</text>
+    </g>
+
+    <!-- Proceed CTA -->
+    <g id="Proceed_To_Studio_CTA">
+      <rect x="932" y="784" width="440" height="52" rx="12" fill="#F8FAFC"/>
+      <text x="1152" y="815" text-anchor="middle" fill="#090D16" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="14" font-weight="800">디자인 샘플 자동 생성 후 3D 커스텀 스튜디오 진입 →</text>
+    </g>
+  </g>
+</svg>
