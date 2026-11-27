@@ -136,6 +136,7 @@ flowchart LR
 * [System Architecture](./docs/ARCHITECTURE.md) — 전체 아키텍처, SSAFY GMS Multi-Agent/RAG 파이프라인, 3D 스튜디오, 정산 시퀀스
 * [ERD & Database Schema](./docs/ERD.md) — PostgreSQL + `pgvector` ERD 및 전체 테이블 명세
 * [API Specification](./docs/API_SPEC.md) — REST API (`/api/v1`) 및 WebSocket (`/ws/campaigns/`) 명세
+* [3D Interactive Studio Spec (PDF)](./docs/RE_FIT_3D_Interactive_Studio_Spec.pdf) — 360° 환경 채광 시뮬레이션 및 부위 지정 원단 구김·펴기 인터랙션 기술 명세 및 검증서
 
 ```text
 re-fit/
